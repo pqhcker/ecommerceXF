@@ -125,15 +125,15 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Rg.Plugins.Popup">
-      <Version>2.0.0.11</Version>
+      <Version>2.0.0.14</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2244" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\eCommerce\eCommerce.csproj">
-      <Project>{3019D324-6D7D-435B-85F6-B51A52E4F585}</Project>
+      <Project>{C2AAD962-CF4A-4DB8-8C48-D55158D447E6}</Project>
       <Name>eCommerce</Name>
     </ProjectReference>
   </ItemGroup>
